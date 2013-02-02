@@ -37,7 +37,7 @@
      */
 
 
-    public function get_related_pages($page_id = 0, $stream_id = false)
+    public function get_related_pages($page_id = false, $stream_id = false)
     {
         // Can't do anything without a stream id or page id
         if( ! $stream_id || ! $page_id) 
